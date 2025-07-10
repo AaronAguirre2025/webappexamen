@@ -5,12 +5,14 @@ body {
 
 
 .texto-sobre-imagen{
-  margin-left:-600px;
+  margin-left:800px;
   margin-top:-150px;
-  color: rgb(235, 235, 241);
+  color: blue;
   font-family:  AlfaSlabOne, sans-serif;
   font-weight: 700;
+  
 }
+
 .text-end
 {
   margin-top: -20px;
