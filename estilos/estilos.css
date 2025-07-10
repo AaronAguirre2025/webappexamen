@@ -1,0 +1,57 @@
+body {
+    background-color: #005eff; /* Azul Bootstrap */
+    color: white;
+}
+
+
+.texto-sobre-imagen{
+  margin-left:-600px;
+  margin-top:-150px;
+  color: rgb(235, 235, 241);
+  font-family:  AlfaSlabOne, sans-serif;
+  font-weight: 700;
+}
+.text-end
+{
+  margin-top: -20px;
+  margin-right: 10px;
+}
+.container{
+    margin-top: 10px;
+}
+
+#btn1 {
+    transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+#btn1:hover {
+    background-color: #ffcc00; /* Color al hacer hover */
+    color: #000; /* Texto negro para contraste */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+.texto-sobre-imagen h1 {
+    display: inline-block;
+    animation: moverLado 4s ease-in-out infinite alternate;
+}
+
+@keyframes moverLado {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(40px);
+    }
+}
